@@ -40,6 +40,6 @@ function mouseMove() {
   let chageColor = getRandomColor();
   click2.style.backgroundColor = chageColor;
 }
-
+ 
 click.addEventListener("click", handler);
 click2.addEventListener("mousemove", mouseMove);
