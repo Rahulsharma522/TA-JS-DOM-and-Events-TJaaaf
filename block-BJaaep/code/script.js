@@ -1,4 +1,4 @@
-let number =document.querySelectorAll(".number");
+let number =document.querySelectorAll(".boxes");
  number.forEach((elem,index)=>{
      elem.addEventListener("click",(event)=>{
          event.target.innerText = index + 1;
