@@ -134,5 +134,5 @@ grid.addEventListener('click', event => {
     }
     previousTarget = clicked;
   }
-
+  
 });
